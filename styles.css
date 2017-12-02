@@ -79,7 +79,7 @@ hr { /* you see how many lines of code it takes to draw 1 line ;-; */
 	font-weight: bold;
 }
 
-.font-italic {
+.font-italic { /* this might not work for all */
 	font-style: italic;
 }
 
