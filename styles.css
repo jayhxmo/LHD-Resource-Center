@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* don't question what is above yet :) we'll just keep it there for now */
+
+section {
+	margin-top: 80px;
+	padding-right: 10%; /* How much side / top space should there be? */
+	padding-left: 10%; /* How much side / top space should there be? */
+	margin-bottom: 80px;
+}
+
+h1 {
+	margin-top: 0; /* spacing between the above element */
+	margin-bottom: 40px; /* spacing between the above element */
+
+	font-size: 56px; /* How big is h1, the largest title? */
+	line-height: 1.14285;
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: 0; /* spacing between the above element */
+	margin-bottom: 36px; /* spacing between the above element */
+
+	font-size: 32px; /* How big is h2, the 2nd largest title? */
+	line-height: 1.25;	
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 0; /* spacing between the above element */
+	margin-bottom: 16px; /* spacing between the above element */
+
+	font-size: 18px; /* How big is an h3? */
+	line-height: 1.333;
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 16px 0;
+	font-size: 18px; /* How big is the font on the paragraph text? */
+	line-height: 1.5556;
+	font-weight: normal;
+}
+
+a {
+	color: #0039EA; /* this is a royal blue, much like the sweatshirt I'm wearing right now */
+	font-weight: bold; /* bold */
+	text-decoration: none;
+}
+
+hr { /* you see how many lines of code it takes to draw 1 line ;-; */
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%; /* 10% spacing on the left */
+	margin-right: 10%; /* 10% spacing on the right */
+	height: 4px; /* 4px tall */
+	background: #EEEEEE; /* color is light gray */
+	border: 0; /* css is dumb */
+}
+
+/* use below when you use the float property. don't worry if you're not sure what it is! */
+.clear {
+	clear: both;
+}
+
+/*************************************************/
+/***************** FONT STYLES *******************/
+/*************************************************/
+
+.font-normal {
+	font-weight: normal;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.font-italic {
+	font-style: italic;
+}
+
+.font-underline {
+	text-decoration: underline;
+}
+
+
+
+/*************************************************/
+/******************** COLORS *********************/
+/*************************************************/
+
+.color-blue {
+	color: #0039EA;
+}

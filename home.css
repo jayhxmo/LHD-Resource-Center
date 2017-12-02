@@ -1,0 +1,96 @@
+h1 {
+	max-width: 720px;
+}
+
+p {
+	width: 100%;
+	max-width: 680px;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -999;
+
+	width: 100%;
+	height: 230px;
+	background: #EEEEEE;
+}
+
+.intro {
+	margin-top: 137px;
+}
+
+.two-column .message {
+	float: left;
+	padding-right: 64px;
+}
+
+.contact {
+	float: left;
+	width: 100%;
+	max-width: 400px;
+}
+
+.contact .person {
+	margin-bottom: 16px;
+}
+
+.contact .person p {
+	margin: 0;
+}
+
+.two-even-column {
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	flex-direction: row;
+
+	margin-bottom: 80px;
+}
+
+
+.two-even-column h2 {
+	padding-right: 36px;
+	flex: 1;
+	text-align: right;
+}
+
+.two-even-column .resources {
+	padding-left: 36px;
+	flex: 2;
+}
+
+@media only screen and (max-width: 640px) {
+	.two-even-column {
+		display: block;
+	}
+
+	.two-even-column h2 {
+		text-align: center;
+	}
+
+	.two-even-column .resources {
+		padding-left: 0;
+	}
+}
+
+
+.two-even-column .resources h3 {
+	width: 100%;
+	max-width: 480px;
+	margin: 8px 0 8px 0;
+}
+
+.two-even-column .resources .explanation {
+	max-width: 480px;
+	font-size: 16px;
+	line-height: 1.6;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+
+
